@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nolwandle and Athenkosi Love Story</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(180deg, #fdeff5 0%, #fff8fd 100%);
+            color: #333;
+        }
+        .page {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 30px 20px 40px;
+        }
+        .card {
+            background: #ffffffee;
+            border-radius: 24px;
+            box-shadow: 0 18px 45px rgba(0,0,0,0.08);
+            padding: 30px;
+        }
+        h1 {
+            color: #ad1457;
+            font-size: 2.8rem;
+            margin-bottom: 10px;
+        }
+        p.lead {
+            font-size: 1.15rem;
+            line-height: 1.8;
+            margin: 0 0 32px;
+            color: #5b2c6f;
+        }
+        .gallery {
+            display: grid;
+            gap: 24px;
+        }
+        figure {
+            margin: 0;
+            overflow: hidden;
+            border-radius: 18px;
+            background: #faf3fb;
+            box-shadow: 0 12px 30px rgba(0,0,0,0.06);
+        }
+        figure img,
+        figure video {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        figcaption {
+            padding: 16px 18px;
+            background: #f6e6f2;
+            color: #6a1b9a;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.04em;
+        }
+        .note {
+            margin-top: 30px;
+            padding: 22px 24px;
+            border-left: 6px solid #c2185b;
+            background: #fff0f6;
+            border-radius: 16px;
+            font-size: 1.2rem;
+            color: #880e4f;
+            font-weight: 700;
+        }
+        @media (min-width: 760px) {
+            .gallery {
+                grid-template-columns: repeat(2, minmax(0, 1fr));
+            }
+            .gallery figure.video {
+                grid-column: 1 / -1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="page">
+        <div class="card">
+            <h1>Nolwandle and Athenkosi</h1>
+            <p class="lead">A love story that proves young hearts can stay close even when they must be apart. Every image and moment below celebrates trust, hope, and forever.</p>
+            <div class="gallery">
+                <figure>
+                    <img src="public/IMG_4314(1).jpeg" alt="Athenkosi">
+                    <figcaption>Athenkosi</figcaption>
+                </figure>
+                <figure>
+                    <img src="public/80ab165c-9826-49c3-ae69-d25c167f8356.jpeg" alt="Nolwandle">
+                    <figcaption>Nolwandle</figcaption>
+                </figure>
+                <figure class="video">
+                    <video controls>
+                        <source src="public/2d8d3af6-f774-4881-80f0-9612563de676.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <figcaption>The Couple</figcaption>
+                </figure>
+            </div>
+            <div class="note">DISTANCE IS TEMPORARY, SHE IS PERMANENT</div>
+        </div>
+    </div>
+</body>
+</html>
